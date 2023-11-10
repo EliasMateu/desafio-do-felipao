@@ -1,22 +1,37 @@
 let nome = "Elias";
-let XP = 6000;
+let xpatual = 6000;
 let nivel = "";
 
-if (XP < 1000) {
+console.log("O heroí " + nome + " " + "iniciou uma nova jornada com o XP em: " + xpatual);
+console.log("");
+console.log("No meio do caminho se deparou com um dagrão");
+console.log("");
+console.log("E com sua bravura e sua potente lamina iniciou a batalha");
+console.log("");
+//Você quem decide o valor que ele ganhou em xp
+console.log("Com muito esforço derrotou o dagrão e com isso ganhou mais 300 em XP!");
+console.log("");
+
+let xp = xpatual + 300;
+
+console.log("Agora ele se encontra cansado mais seu XP está totalizado em: " + xp);
+console.log("");
+
+if (xp < 1000) {
     nivel = "Ferro";
-} else if(XP >= 1001 && XP <= 2000){
+} else if(xp >= 1001 && xp <= 2000){
     nivel = "Bronze";
-}else if(XP >= 2001 && XP <= 5000){
+}else if(xp >= 2001 && xp <= 5000){
     nivel = "Prata";
-}else if(XP >= 6001 && XP <= 7000){
+}else if(xp >= 6001 && xp <= 7000){
     nivel = "Ouro";
-}else if(XP >= 7001 && XP <= 8000){
+}else if(xp >= 7001 && xp <= 8000){
     nivel = "Platina";
-}else if(XP >= 8001 && XP <= 9000){
+}else if(xp >= 8001 && xp <= 9000){
     nivel = "Ascendente";
-}else if(XP >= 9001 && XP <= 1000){
+}else if(xp >= 9001 && xp <= 1000){
     nivel = "Imortal";
-}else if(XP >= 10001){
+}else if(xp >= 10001){
     nivel = "Radiante";
 }else{
     console.log("Nivel invalido");
