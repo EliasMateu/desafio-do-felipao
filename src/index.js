@@ -1,18 +1,20 @@
+//criação de variaves
 let nome = "Elias";
 let xpatual = 6000;
 let nivel = "";
-
-console.log("O heroí " + nome + " " + "iniciou uma nova jornada com o XP em: " + xpatual);
+let xpAdquirido = 1200;
+//Breve história introdutória
+console.log("O heroí " + nome + " " + "iniciou uma nova jornada com o seu XP em: " + xpatual);
 console.log("");
 console.log("No meio do caminho se deparou com um dagrão");
 console.log("");
 console.log("E com sua bravura e sua potente lamina iniciou a batalha");
 console.log("");
 //Você quem decide o valor que ele ganhou em xp
-console.log("Com muito esforço derrotou o dagrão e com isso ganhou mais 300 em XP!");
+console.log("Com muito esforço derrotou o dagrão e com isso ganhou mais" + " "  + xpAdquirido + " " + "em XP!");
 console.log("");
-
-let xp = xpatual + 300;
+//novo xp do heroi
+let xp = xpatual + xpAdquirido;
 
 console.log("Agora ele se encontra cansado mais seu XP está totalizado em: " + xp);
 console.log("");
